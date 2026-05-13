@@ -22,14 +22,6 @@ Contract:
             "success": bool,
         }
 
-Design goals:
-    - Single file.
-    - No external Python dependencies.
-    - Validator-provided OpenAI-compatible /v1/chat/completions endpoint.
-    - No direct OpenRouter/OpenAI credentials in miner code.
-    - Bash-only action interface.
-    - Validator owns repo, tests, sandbox, scoring, hidden tasks.
-    - Miners only patch this file.
 
 Miner editing guide:
     You are expected to improve this file. Good areas to edit include prompting,
